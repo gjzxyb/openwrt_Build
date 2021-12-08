@@ -4,7 +4,7 @@
 # Author: kenzo
 #=================================================
 
-name: Lean
+name: openwrt-lean
 
 on:
   repository_dispatch:
@@ -12,7 +12,7 @@ on:
     inputs:
       ssh:
         description: 'SSH connection to Actions'
-        required: false
+        required: true
         default: 'false'
 
     
